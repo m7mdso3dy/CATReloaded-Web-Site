@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/commites.css" />
+    <link rel="icon" type="image/png" sizes="16x16" href="imgs/layer1.svg" />
+    <title>CAT Committees</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <img src="imgs/logo-nav.svg" alt="" />
+        </div>
+        <button class="menu-button">Menu
+          <span class="arrow-down"></span>
+        </button>
+        <div class="nav-bar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="https://blog.catreloaded.org/">CATazine</a></li>
+            <li class="activee"><a href="committees.html">Committees</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <button class="btn-newsletter">Newsletter</button>
+          </ul>
+        </div>
+    
+        <div class="btns">
+          <div class="news-letter">
+            <!--<button class="btn-newsletter">Newsletter</button>-->
+            <div class="lay1">
+              <button class="exit"><img src="imgs/exit.svg" alt="" /></button>
+              <div class="lay2">
+                <div class="NL-img">
+                  <img src="imgs/newletter.svg" alt="" />
+                </div>
+                <div class="NL-sub">
+                  <h4>Subscribe to our Newsletter!</h4>
+                  <p>We'll informed you with our new blogs and the latest updates!</p>
+                  <form>
+                    <input type="text" placeholder="Name" />
+                    <input type="email" placeholder="Email" />
+                    <input type="submit" value="Subscribe" />
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- registration btn -- to hide it just comment this div -->
+          <div class="register">
+            <button class="btn-register">Register</button>
+            <div class="bg-modal">
+              <div class="modal 1">
+                <img src="./imgs/logo header.svg" />
+                <div class="text">
+                  <h2>Recruitment 20<span>/</span>21</h2>
+                  <p>
+                    - This application is for those who are interested in
+                    computer science and want to take the chance to join CAT
+                    community and be part of our family.
+                  </p>
+                  <p>
+                    - Please take your time and fill this application carefully.
+                  </p>
+                  <p>
+                    - You can use any language you prefer(Arabic is allowed).
+                  </p>
+                  <p>
+                    - Note that the opening period of the form is 3 days, from
+                    19/12/2021 to 21/12/2021.
+                  </p>
+                  <p>Good Luck.</p>
+                </div>
+                <form class="register-form">
+                  <input type="text" placeholder="Full Name (In English)*" />
+                  <input type="email" placeholder="Email*" />
+                  <input type="text" placeholder="Phone Number*" />
+                  <input type="text" placeholder="Facebook Link*" />
+                  <input type="text" placeholder="LinkedIn Link*" />
+                  <select>
+                    <option selected disabled>Faculty</option>
+                    <option>Engineering</option>
+                    <option>Computer Science</option>
+                    <option>Other</option>
+                  </select>
+                  <select>
+                    <option selected disabled>University</option>
+                    <option>Mansoura</option>
+                    <option>Other</option>
+                  </select>
+                  <select>
+                    <option selected disabled>Academic Year</option>
+                    <option>Prepatory</option>
+                    <option>First</option>
+                    <option>Second</option>
+                    <option>Third</option>
+                    <option>Fourth</option>
+                  </select>
+                  <div class="form-btn">
+                    <button class="nxt-btn">Next</button>
+                  </div>
+                </form>
+                <span class="close-btn">X</span>
+              </div>
+              <div class="modal hide 2">
+                <img src="./imgs/logo header.svg" />
+                <form class="register-form">
+                  <p>Did you join any student activity before?</p>
+                  <textarea></textarea>
+                  <select>
+                    <option disabled selected>
+                      How did you know about CAT?
+                    </option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                  <p>Why do you want to join our community?</p>
+                  <textarea></textarea>
+                  <select>
+                    <option disabled selected>Choose a technical circle</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                  <p>Why did you choose this technical circle?</p>
+                  <textarea></textarea>
+                  <p>Add your experience in the track you chose</p>
+                  <textarea></textarea>
+                  <p>What are your other technical skills?</p>
+                  <textarea></textarea>
+                  <select>
+                    <option disabled selected>
+                      Choose a non-technical circle
+                    </option>
+                    <option value="hr">HR</option>
+                    <option value="pr">PR</option>
+                    <option value="logistics">Logistics</option>
+                    <option value="media">Media</option>
+                  </select>
+                  <div class="form-btn">
+                    <button class="nxt-btn">Next</button>
+                  </div>
+                </form>
+                <span class="close-btn">X</span>
+              </div>
+              <div class="modal hide three">
+                <img src="./imgs/logo header.svg" />
+                <h2>Content Creation</h2>
+                <form class="register-form">
+                  <p>What is the content creation?</p>
+                  <textarea></textarea>
+                  <p>Why did you choose content creation?</p>
+                  <textarea></textarea>
+                  <p>
+                    CAT Reloaded has a new partnership with @Xcompany, Xcompany
+                    is a tech company that seeks to offer internships to
+                    undergraduate students in most CS fields, write a little
+                    post about it.
+                  </p>
+                  <textarea></textarea>
+                  <div class="form-btn">
+                    <button class="submit-btn">Submit</button>
+                  </div>
+                </form>
+                <span class="close-btn">X</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </nav>
+    <header>
+      <section class="aboutCat">
+        <img src="imgs/layer1.svg" alt="" />
+        <h1><span>CAT</span> Committees</h1>
+      </section>
+    </header>
+    <section class="non-techincal">
+      <div class="container">
+        <section class="cards">
+          <div class="card">
+            <span> PR&FR </span>
+            <span>
+              <img src="imgs/pr.svg" alt="" />
+            </span>
+          </div>
+          <div class="card active-circle">
+            <span> HR </span>
+            <span>
+              <img src="imgs/HR.svg" alt="" />
+            </span>
+          </div>
+          <div class="card">
+            <span> Logistics </span>
+            <span>
+              <img src="imgs/logistics.svg" alt="" />
+            </span>
+          </div>
+          <div class="card">
+            <span> Media </span>
+            <span>
+              <img src="imgs/media.svg" alt="" />
+            </span>
+          </div>
+        </section>
+        <div class="circle-disecription">
+          <h3 class="ch">HR Circle</h3>
+          <p>
+            HR, or Human Resources, is responsible for finding, screening, recruiting, and training applicants, and planning
+            activities that help members work together and know each other better, or activities that help improve members’ skills
+            further. As well as dealing with any internal problems that may arise between members
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="Technical-circles">
+      <div class="container">
+        <h2><span>CAT</span> Technical circles</h2>
+        <section class="tech">
+          <div class="card card1">
+            <span> Front-End </span>
+            <span>
+              <img src="imgs/front-end.svg" alt="" />
+            </span>
+          </div>
+          <div class="card card2">
+            <span> Back-End </span>
+            <span>
+              <img src="imgs/back-end.svg" alt="" />
+            </span>
+          </div>
+          <div class="card card3">
+            <span> UI/UX & Graphic </span>
+            <span>
+              <img src="imgs/graphics.svg" alt="" />
+            </span>
+          </div>
+          <div class="card card4">
+            <span> Game Development </span>
+            <span>
+              <img src="imgs/game.svg" alt="" />
+            </span>
+          </div>
+          <div class="card card5">
+            <span> Android </span>
+            <span>
+              <img src="imgs/android.svg" alt="" />
+            </span>
+          </div>
+          <div class="card card6">
+            <span> Flutter </span>
+            <span>
+              <img src="imgs/flutter.svg" alt="" />
+            </span>
+          </div>
+          <div class="card card7">
+            <span> IOS </span>
+            <span>
+              <img src="imgs/IOS.svg" alt="" />
+            </span>
+          </div>
+          <div class="card card8">
+            <span> Security </span>
+            <span>
+              <img src="imgs/security.svg" alt="" />
+            </span>
+          </div>
+          <div class="card card9">
+            <span> Computer Science </span>
+            <span>
+              <img src="imgs/computer Science.svg" alt="" />
+            </span>
+          </div>
+          <div class="card card10">
+            <span> Data Science </span>
+            <span>
+              <img src="imgs/datascience.svg" alt="" />
+            </span>
+          </div>
+          <div class="circle-disecription">
+            <h3 class="tech-ch">HR Circle</h3>
+            <p>
+              Lorem Ipsum is simply dummy dolor unknown printer text of the
+              printing and typesetting dolor alore industry. Lorem Ipsum has been
+              the industry's standard dummy when an unknown printer. dolor cont
+              standard dummy Contrary to popular belief, standard dummy lorem
+              ipsum dolor.
+            </p>
+          </div>
+        </section>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <section class="footer1">
+          <section class="info">
+            <img src="imgs/logo-nav.svg" alt="" />
+          </section>
+          <section class="news-letter">
+            <p class="info-location">
+              <span>
+                <img src="imgs/location-pin-red.svg" alt="" />
+              </span>
+              LOCATION
+            </p>
+            <p class="adrees">
+              Faculty of Engineering,<br />Mansoura University,<br />Dakhliya, Egypt
+            </p>
+          </section>
+          <section class="annual-partner">
+            <p>ANNUAL PARTENER</p>
+            <div class="partner">
+              <img src="imgs/triago.png" alt="" width="50px" height="50px" />
+              <img src="imgs/triago.png" alt="" width="50px" height="50px" />
+            </div>
+          </section>
+          <section class="blog-tags">
+            <p>FOLLOW US</p>
+            <div class="contact-us">
+              <a href="https://web.facebook.com/CATReloaded">
+                <img src="imgs/facebook-f-brands.svg" alt="" />
+              </a>
+              <a href="https://twitter.com/CATReloaded">
+                <img src="imgs/twitter-brands.svg" alt="" />
+              </a>
+              <a href="https://www.youtube.com/user/C4TReloaded">
+                <img src="imgs/youtube-brands.svg" alt="" />
+              </a>
+              <a href="https://github.com/CATReloaded">
+                <img src="imgs/github-brands.svg" alt="" />
+              </a>
+              <a href="https://www.linkedin.com/company/cat-reloaded/">
+                <img src="imgs/linkedin-in-brands.svg" alt="" />
+              </a>
+            </div>
+          </section>
+        </section>
+      </div>
+      <section class="footer2">
+        <p>Copywrite&copy; 2021 All Right Reserved by CATReloaded Technical</p>
+      </section>
+    </footer>
+    <script src="jsCode/about.js"></script>
+    <script>
+      ////////////////////////variables
+      const nonTechCir = document.querySelectorAll(
+        ".non-techincal > .container >.cards > .card"
+      );
+      const nonTechDes = document.querySelector(".non-techincal > .container  .circle-disecription");
+      const techCir = document.querySelectorAll(".tech > .card");
+      const techDes = document.querySelector(".tech > .circle-disecription");
+      //objects Data 
+      const cirs = {
+        PRFR:'responsible for team relations and the process of collecting financial contributions from Resources available to them, gathering supporters and targeting a broad base of individuals who believe in your vision.',
+        HR : 'HR, or Human Resources, is responsible for finding, screening, recruiting, and training applicants, and planning activities that help members work together and know each other better, or activities that help improve members’ skills further. As well as dealing with any internal problems that may arise between members',
+        Logistics : "The logistics committee is the front of the team primarily responsible for organizing any event inside and outside the team in line with the vision and mission of the team as a whole, as well as with the goal of the event, in order to make it appear in the best possible way.Communicate with all committees to know their needs and take them into account in the event plan.",
+        Media : 'Social media is one of the most important parts of any company or team, as it is the face of the team digitally. Through posts or videos you can learn a lot about the group and the content they intend to deliver. Social media has three main branches, content creation, graphics and video editing. A place where you can create things that you know people will enjoy.',
+        UIUXGraphic : ' Have you ever seen a picture and kept thinking, How was this design made?What is the idea of this design ? How much does he develop himself to reach this level ? This makes us know graphic design, which is a visual contact the graphic designer communicates certain ideas or messages in a visual way.These visuals can be as simple as a business logo, or as complex as page layouts, via programs like Photoshop, illustrator, XD that help him control images, fonts, colors, shapes and sizes.',
+        FrontEnd : 'The Front-End is one of the branches of Web development, which is divided into (Front-end & Back-end). It is also the User Interface which the user deals with when visiting a website.The front- end deals with the client - side of the website, unlike the back - end which deals with the server - side of the website.',
+        BackEnd : "After designing a page or an  application we only have a pic but we cannot move in the browser , sell ,buy or just login  so We need to use the backend It refers to parts of a computer application or a program's code that allow it to operate and that cannot be accessed by a user. The back end is also called the data access layer of software or hardware and includes any functionality that needs to be accessed and navigated to by digital means.",
+        GameDevelopment: "Game development isn't about writing code; it's about creating a piece of art that helps people enjoy their free time. A game developer could be a programmer, a digital artist, or maybe a gamer who enjoys video games so much that he decides to create his own games.If you are into game development, we are here to help you take the first steps and design your first video game, and make Easter eggs of your own.",
+        Android:' With over 3 billion Android devices among (Smartphones, TVs, Watches, Cars, and more) in the hands of 2.5 billion Android users, Android has become the most used operating system for smartphones so we will help you glide over this enormous world by learning how to make apps for the people inside.',
+        Flutter:'Let me tell you something,if you have a product,Why should you write 2 codebases for Android & IOS, ha? \n Use FLUTTER instead.Flutter is a free and open- source UI toolkit created by Google.It allows you to create fast, beautiful, natively compiled applications for mobile, web, and desktop with only one codebase.',
+        IOS:
+          "IOS is the operating system used on Apple products, such as the iPhone, iPad, and iPod touch.It is the world's second-most widely installed mobile operating system, after Android.",
+        Security:"Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. It's one of our technical circles that contains three branches: (Reverse, Network security, and Penetration testing).The reverse is the process of analyzing functions and information flow so that functionality and behavior can be understood.Network security aims at protecting a computer network from intruders, including both wired and wireless(Wi- Fi) connections.Penetration testing, also known as a pen test, is a simulated cyberattack against your computer system to check for exploitable vulnerabilities.",
+        ComputerScience : "The CS fundamentals are the first stair in CS stairs. It will help you to understand how the computer works, how to deal with data, how to deal with code and many other things you should know to go freely in your career. Whatever the CS technology you choose to learn, you need these fundamentals. Many people who decided to start directly learning one of CS technologies are suffering from a lack of some skills and information and they waste their time to go back and learn what they need and the process is repeated continuously.",
+        DataScience:
+          "Learning fundamentals of Math, Probability, and Statistics with a programming language like Python is the gate to knowing what Data Science is.From one level to another you will go deeper, branch out in more critical and essential topics and go more advanced in technologies in Machine Learning like Python with different libraries, SQL and DataBase, APIs, Tensorflow."
+
+      }
+
+
+      //////////////////////////////////hadling events
+      //// non tech circles
+      nonTechCir.forEach(cir =>{
+        cir.addEventListener('click',(e)=>{
+          nonTechCir.forEach((icir) => {
+            icir.classList.remove("active-circle");
+          });
+          cir.classList.add('active-circle')
+          let htmltext = `
+          <h3 class="tech-ch">${cir.children[0].textContent} Circle</h3>
+            <p>
+              ${cirs[cir.children[0].textContent.replace(/[^A-Za-z0-9]/g, '')]}
+            </p>
+          `;
+          nonTechDes.innerHTML='';
+          nonTechDes.innerHTML = htmltext;
+
+        })
+      })
+      //////tech circles
+      techCir.forEach((cir , i) =>{
+        cir.addEventListener('click',()=>{
+          techCir.forEach((icir) => {
+            icir.classList.remove("active-circle");
+          });
+          cir.classList.add("active-circle");
+          let htmltext = `
+          <h3 class="tech-ch">${cir.children[0].textContent} Circle</h3>
+            <p>
+              ${cirs[cir.children[0].textContent.replace(/[^A-Za-z0-9]/g, '')]}
+            </p>
+          `;
+          techDes.innerHTML = '';
+          techDes.innerHTML= htmltext;
+          techDes.style.display = 'block'
+          if(window.innerWidth >= 700){
+            techDes.style.order = Math.ceil((i + 1) / 4) * 4 || 4;
+          }
+          else{
+            techDes.style.order = Math.ceil((i + 1) / 2) * 2 || 2;
+          }
+        })
+      });
+      // handling modal
+
+      //const registerBtn = document.querySelector(".btn-register");
+      //const bgModal = document.querySelector(".bg-modal");
+      //const closeBtns = Array.from(document.querySelectorAll(".close-btn"));
+
+      registerBtn.addEventListener("click", () => {
+        bgModal.classList.add("open");
+      });
+
+      closeBtns.forEach((btn) => {
+        btn.addEventListener("click", (e) => {
+          bgModal.classList.remove("open");
+        });
+      });
+
+      //const nextBtns = Array.from(document.querySelectorAll(".nxt-btn"));
+      //const submitBtn = document.querySelector(".submit-btn");
+      //const modals = Array.from(document.querySelectorAll(".modal"));
+
+      submitBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        bgModal.classList.remove("open");
+      });
+
+      nextBtns.forEach((btn) => {
+        btn.addEventListener("click", (e) => {
+          e.preventDefault();
+          if (
+            btn.parentElement.parentElement.parentElement.classList.contains(
+              "1"
+            )
+          ) {
+            modals[0].classList.add("hide");
+            modals[1].classList.remove("hide");
+          }
+          if (
+            btn.parentElement.parentElement.parentElement.classList.contains(
+              "2"
+            )
+          ) {
+            modals[1].classList.add("hide");
+            modals[2].classList.remove("hide");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,547 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Raleway:wght@400;500;700&display=swap");
+/*layover style*/
+.lay1 {
+  width: 99%;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 1);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  position: absolute;
+  display: none;
+  transform: translateX(-120%);
+  transform: translateY(-120%);
+  transition: all 0.25s ease-in-out;
+}
+.active-layover {
+  display: flex;
+  transform: translateX(0);
+  transform: translateY(0);
+  transition: all 0.25s ease-in-out;
+}
+.lay1 > .exit {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+.lay2 {
+  width: 1046px;
+  display: flex;
+  margin-top: 86px;
+}
+.lay2 > .NL-img > img {
+  width: 520px;
+}
+.lay2 > .NL-sub {
+  display: flex;
+  flex-direction: column;
+  margin-left: -8px;
+}
+.lay2 > .NL-sub > h4 {
+  font-size: 50px;
+  /* line-height: 42px; */
+}
+.lay2 > .NL-sub > p {
+  font-size: 26px;
+  margin-bottom: 28px;
+}
+.NL-sub > form {
+  display: flex;
+  flex-direction: column;
+}
+.NL-sub > form > * {
+  width: 448px;
+  height: 50px;
+  color: #484848;
+  padding: 8px 16px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+.NL-sub > form > input::placeholder {
+  font-size: 20px;
+  color: #484848;
+}
+.NL-sub > form > input[type="submit"] {
+  background-color: #c2341c;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+}
+/*................................................
+.............................
+
+/**
+header style */
+body {
+  font-family: "Poppins";
+}
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(270deg, rgb(99, 12, 12), rgb(0, 0, 0));
+}
+nav > * {
+  padding: 15px;
+}
+.logo > img {
+  width: 146px;
+  height: 50px;
+}
+.nav-bar > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 664px;
+  height: 24px;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.nav-bar > ul > li {
+  text-transform: capitalize;
+  transition: color 0.25s;
+}
+.nav-bar > ul > li > a {
+  color: inherit;
+  text-decoration: none;
+}
+.nav-bar > ul > li:hover,
+.nav-bar > ul > li:active {
+  color: rgba(194, 52, 28, 1);
+  cursor: pointer;
+}
+.news-letter > button {
+  background-color: transparent;
+  box-shadow: none;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  color: #fff;
+  padding: 8px;
+}
+.error {
+  margin-top: 142px;
+  margin-left: 224px;
+  margin-right: 196px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+}
+.error > .error-dis {
+  margin-right: 60px;
+}
+.error > .error-dis > h1 {
+  font-weight: bolder;
+  margin-top: 66px;
+  margin-bottom: 16px;
+  font-size: 68px;
+  color: #c2341c;
+}
+.error > .error-dis > p {
+  font-weight: bolder;
+  font-size: 32px;
+  padding-bottom: 24px;
+}
+.error > .error-dis > button {
+  background-color: #c2341c;
+  border-radius: 6px;
+  border: 2px solid #c2341c;
+  padding: 12px 24px;
+}
+.error > .error-dis > button > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+.error > .error-img > img {
+  width: 540px;
+}
+/*footer style*/
+footer {
+  background-color: #1c1c1c;
+  background-image: linear-gradient(270deg, rgb(99, 12, 12), rgb(0, 0, 0));
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+  padding-top: 50px;
+}
+.footer1 {
+  /* background-color: #1c1c1c;
+  background-image: linear-gradient(270deg, rgb(99, 12, 12), rgb(0, 0, 0)); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
+  margin-left: 138px;
+  margin-right: 150px;
+}
+.footer2 {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background-color: #c2341c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer2 > p {
+  font-size: 20px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+.info > * {
+  margin-bottom: 24px;
+}
+.info > img {
+  width: 246px;
+}
+.info-location img {
+  width: 14px;
+}
+
+.contact-us > * {
+  margin-right: 20px;
+}
+.contact-us > a {
+  text-decoration: none;
+}
+.contact-us > a > img {
+  height: 28px;
+}
+.news-letter {
+  display: flex;
+  flex-direction: column;
+}
+.news-letter > p {
+  margin-bottom: 38px;
+  text-align: center;
+  font-size: 32px;
+  font-family: "Raleway";
+  font-weight: 700;
+}
+.news-letter > form {
+  display: flex;
+  flex-direction: column;
+}
+.news-letter > form > * {
+  width: 240px;
+  height: 34px;
+  color: #484848;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+}
+.news-letter > form > input::placeholder {
+  color: #484848;
+  font-size: 14px;
+}
+.news-letter > form > input[type="submit"] {
+  background-color: #c2341c;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+}
+.blog-tags > p {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.blog-tags > p:nth-child(1) {
+  font-size: 26px;
+  font-family: "Raleway";
+  font-weight: 700;
+
+  margin-bottom: 36px;
+}
+.annual-partner {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.annual-partner > p {
+  font-size: 26px;
+  font-family: "Raleway";
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+  .lay1 > .exit {
+    width: 22px;
+    height: 22px;
+    right: 32px;
+    top: 32px;
+  }
+  .lay1 > .exit > img {
+    width: 18px;
+    height: 18px;
+  }
+  .lay2 {
+    width: 848px;
+    margin-top: 70px;
+  }
+  .lay2 > .NL-img > img {
+    width: 420px;
+  }
+  .lay2 > .NL-sub {
+    margin-left: -6.5px;
+  }
+  .lay2 > .NL-sub > h4 {
+    font-size: 40px;
+  }
+  .lay2 > .NL-sub > p {
+    font-size: 21px;
+    margin-bottom: 22px;
+  }
+  .NL-sub > form > * {
+    width: 362px;
+    height: 40px;
+  }
+  .NL-sub > form > input::placeholder,
+  .NL-sub > form > input[type="submit"] {
+    font-size: 16px;
+  }
+  nav > * {
+    padding: 12px;
+  }
+  .logo > img {
+    width: 146px;
+    height: 50px;
+  }
+  .nav-bar > ul {
+    width: 540px;
+    height: 20px;
+    font-size: 14px;
+  }
+  .news-letter > button {
+    padding: 6px;
+  }
+  .error {
+    margin: 166px 158px 0 182px;
+  }
+  .error > .error-dis {
+    margin-right: 48px;
+  }
+  .error > .error-dis > h1 {
+    margin-top: 54px;
+    margin-bottom: 13px;
+    font-size: 56px;
+  }
+  .error > .error-dis > p {
+    font-size: 26px;
+    padding-bottom: 20px;
+  }
+  .error > .error-dis > button {
+    padding: 10px 20px;
+  }
+  .error > .error-dis > button > a {
+    font-size: 16px;
+  }
+  .error > .error-img > img {
+    width: 438px;
+  }
+  footer {
+    padding-top: 40px;
+  }
+  .footer1 {
+    margin-left: 110px;
+    margin-right: 120px;
+  }
+  .footer2 {
+    height: 40px;
+  }
+  .footer2 > p {
+    font-size: 16px;
+  }
+  .info > * {
+    margin-bottom: 20px;
+  }
+  .info > img {
+    width: 200px;
+  }
+  .info-location img {
+    width: 11px;
+  }
+  .contact-us > * {
+    margin-right: 16px;
+  }
+  .contact-us > a > img {
+    height: 22px;
+  }
+  .news-letter > p {
+    margin-bottom: 30px;
+    font-size: 26px;
+  }
+  .news-letter > form > * {
+    width: 200px;
+    height: 38px;
+    padding: 6.5px 13px;
+    margin-bottom: 13px;
+  }
+  .blog-tags > p {
+    font-size: 16px;
+  }
+  .blog-tags > p:nth-child(1) {
+    font-size: 22px;
+    margin-bottom: 30;
+  }
+  .annual-partner > p {
+    font-size: 22px;
+    margin-bottom: 26px;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .lay1 > .exit {
+    width: 34px;
+    height: 34px;
+    right: 48px;
+    top: 48px;
+  }
+  .lay1 > .exit > img {
+    width: 22px;
+    height: 22px;
+  }
+  .lay2 {
+    width: 1260px;
+    margin-top: 106px;
+  }
+  .lay2 > .NL-img > img {
+    width: 430px;
+  }
+  .lay2 > .NL-sub {
+    margin-left: -10px;
+  }
+  .lay2 > .NL-sub > h4 {
+    font-size: 60px;
+  }
+  .lay2 > .NL-sub > p {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+  .NL-sub > form > * {
+    width: 540px;
+    height: 60px;
+  }
+  .NL-sub > form > input::placeholder,
+  .NL-sub > form > input[type="submit"] {
+    font-size: 24px;
+  }
+
+  nav > * {
+    padding: 18px;
+  }
+  .logo > img {
+    width: 176px;
+    height: 60px;
+  }
+  .nav-bar > ul {
+    width: 800px;
+    height: 30px;
+    font-size: 20px;
+  }
+  .news-letter > button {
+    padding: 10px;
+  }
+  .error {
+    margin: 172px 235px 45px 275px;
+  }
+  .error > .error-dis {
+    margin-right: 72px;
+  }
+  .error > .error-dis > h1 {
+    margin-top: 72px;
+    margin-bottom: 20px;
+    font-size: 84px;
+  }
+  .error > .error-dis > p {
+    font-size: 40px;
+    padding-bottom: 30px;
+  }
+  .error > .error-dis > button {
+    padding: 15px 30px;
+  }
+  .error > .error-dis > button > a {
+    font-size: 24px;
+  }
+  .error > .error-img > img {
+    width: 650px;
+  }
+  footer {
+    padding-top: 60px;
+  }
+  .footer1 {
+    margin-left: 168px;
+    margin-right: 180px;
+  }
+  .footer2 {
+    height: 60px;
+  }
+  .footer2 > p {
+    font-size: 24px;
+  }
+  .info > * {
+    margin-bottom: 30px;
+  }
+  .info > img {
+    width: 300px;
+  }
+  .info-location img {
+    width: 16.5px;
+  }
+  .contact-us > * {
+    margin-right: 24px;
+  }
+  .contact-us > a > img {
+    height: 36px;
+  }
+  .news-letter > p {
+    margin-bottom: 38px;
+    font-size: 32px;
+  }
+  .news-letter > form > * {
+    width: 288px;
+    height: 40px;
+    padding: 8.5px 0 8.5px 16px;
+    margin-bottom: 16px;
+  }
+  .blog-tags > p {
+    font-size: 24px;
+  }
+  .blog-tags > p:nth-child(1) {
+    font-size: 32px;
+    margin-bottom: 38px;
+  }
+  .annual-partner > p {
+    font-size: 32px;
+    margin-bottom: 38px;
+  }
+  .news-letter > form > input::placeholder {
+    font-size: 16px;
+  }
+  .news-letter > form > input[type="submit"] {
+    font-size: 16px;
+  }
+}

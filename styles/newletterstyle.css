@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap");
+body {
+  font-family: "Poppins";
+}
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.lay1 {
+  width: 99%;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 1);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  position: relative;
+}
+.lay1 > .exit {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+.lay2 {
+  width: 1046px;
+  display: flex;
+  margin-top: 86px;
+}
+.lay2 > .NL-img > img {
+  width: 520px;
+}
+.lay2 > .NL-sub {
+  display: flex;
+  flex-direction: column;
+  margin-left: -8px;
+}
+.lay2 > .NL-sub > h4 {
+  font-size: 50px;
+  /* line-height: 42px; */
+}
+.lay2 > .NL-sub > p {
+  font-size: 26px;
+  margin-bottom: 28px;
+}
+.NL-sub > form {
+  display: flex;
+  flex-direction: column;
+}
+.NL-sub > form > * {
+  width: 448px;
+  height: 50px;
+  color: #484848;
+  padding: 8px 16px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+.NL-sub > form > input::placeholder {
+  font-size: 20px;
+  color: #484848;
+}
+.NL-sub > form > input[type="submit"] {
+  background-color: #c2341c;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+}

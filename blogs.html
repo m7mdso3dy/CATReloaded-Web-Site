@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .last-blogs {
+  background-color: rgba(112, 112, 112, 0.1);
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.last-blogs > h2 {
+  /* text-align: center; */
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 66px;
+}
+.last-blogs > h2::after {
+  content: "";
+  position: absolute;
+  bottom: -16px;
+  left: 60px;
+  border-radius: 10px;
+  width: 200px;
+  height: 9px;
+  background-color: rgba(194, 52, 28, 1);
+}
+.slider-parent {
+  width: 1432px;
+  overflow-x: hidden;
+}
+.slider {
+  width: 4800000px;
+
+  display: flex;
+  flex-direction: row;
+  background-color: r#f0f0f0;
+}
+/* .blog + .blog {
+  margin: 0 52px 62px;
+} */
+.blog {
+  flex-basis: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  position: relative;
+  border-radius: 30px;
+  margin-right: 29px;
+  margin-left: 29px;
+  margin-bottom: 62px;
+  border: 1px solid rgba(112, 112, 112, 0.25);
+  box-shadow: rgba(112, 112, 112, 0.25) 6px 6px 20px;
+}
+
+.blog > * {
+  margin-left: 38px;
+}
+.blog > .circle {
+  margin: 0;
+  position: absolute;
+  top: 16px;
+  left: 12px;
+  padding: 10px 25px;
+  font-size: 20px;
+  background-image: linear-gradient(
+    270deg,
+    rgba(194, 52, 28, 1),
+    rgba(97, 26, 14, 1)
+  );
+  border-radius: 80px;
+  color: #fff;
+}
+.blog > img {
+  width: 100%;
+  height: 356px;
+  margin: 0;
+}
+.blog > h3 {
+  margin-top: 36px;
+  font-size: 32px;
+  font-family: "Raleway";
+  font-weight: bold;
+}
+.blog > .date {
+  font-size: 16px;
+  color: rgba(138, 138, 138, 1);
+  margin-bottom: 16px;
+}
+.blog > p {
+  position: relative;
+  margin-bottom: 60px;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+.blog > p::after {
+  position: absolute;
+  content: "";
+  width: 340px;
+  height: 1px;
+  background-color: rgba(112, 112, 112, 1);
+  bottom: -44px;
+  left: 0;
+}
+.blog > button {
+  margin-bottom: 30px;
+  border-radius: 6px;
+  border: 2px solid rgba(194, 52, 28, 1);
+  color: rgba(194, 52, 28, 1);
+  font-size: 16px;
+  background-color: #fff;
+  padding: 12px;
+  transition: all 0.25s;
+}
+.blog > button:hover {
+  color: #fff;
+  background-color: rgb(194, 52, 28);
+}
+.indicators-blog {
+  text-align: center;
+  padding-bottom: 60px;
+  cursor: default;
+}
+.indicator-blog {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #424242;
+  border: hidden;
+}
+.indicator-blog:hover {
+  background-color: #c2341c;
+}
+
+/*..............................
+.......................
+..................
+*/
+    </style>
+</head>
+<body>
+    <section class="last-blogs">
+        <h2>Latest Blogs</h2>
+        <section class="slider-parent">
+            <section class="slider">
+                <div class="blog">
+                    <span class="circle">Front-End</span>
+                    <img src="imgs/front-end.png" alt="" />
+                    <h3>Web Development</h3>
+                    <span class="date"> February 25, 2019 </span>
+                    <p>
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                        officia deserunt mollit anim.Excepteur sint occaecat
+                    </p>
+                    <button class="read-more">Read More</button>
+                </div>
+                <div class="blog">
+                    <span class="circle">Front-End</span>
+                    <img src="imgs/front-end.png" alt="" />
+                    <h3>Web Development</h3>
+                    <span class="date"> February 25, 2019 </span>
+                    <p>
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                        officia deserunt mollit anim.Excepteur sint occaecat
+                    </p>
+                    <button class="read-more">Read More</button>
+                </div>
+                <div class="blog">
+                    <span class="circle">Front-End</span>
+                    <img src="imgs/front-end.png" alt="" />
+                    <h3>Web Development</h3>
+                    <span class="date"> February 25, 2019 </span>
+                    <p>
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                        officia deserunt mollit anim.Excepteur sint occaecat
+                    </p>
+                    <button class="read-more">Read More</button>
+                </div>
+                <div class="blog">
+                    <span class="circle">Front-End</span>
+                    <img src="imgs/front-end.png" alt="" />
+                    <h3>Web Development</h3>
+                    <span class="date"> February 25, 2019 </span>
+                    <p>
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                        officia deserunt mollit anim.Excepteur sint occaecat
+                    </p>
+                    <button class="read-more">Read More</button>
+                </div>
+                <div class="blog">
+                    <span class="circle">Front-End</span>
+                    <img src="imgs/front-end.png" alt="" />
+                    <h3>Web Development</h3>
+                    <span class="date"> February 25, 2019 </span>
+                    <p>
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                        officia deserunt mollit anim.Excepteur sint occaecat
+                    </p>
+                    <button class="read-more">Read More</button>
+                </div>
+                <div class="blog">
+                    <span class="circle">Front-End</span>
+                    <img src="imgs/front-end.png" alt="" />
+                    <h3>Web Development</h3>
+                    <span class="date"> February 25, 2019 </span>
+                    <p>
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                        officia deserunt mollit anim.Excepteur sint occaecat
+                    </p>
+                    <button class="read-more">Read More</button>
+                </div>
+                <div class="blog">
+                    <span class="circle">Front-End</span>
+                    <img src="imgs/front-end.png" alt="" />
+                    <h3>Web Development</h3>
+                    <span class="date"> February 25, 2019 </span>
+                    <p>
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                        officia deserunt mollit anim.Excepteur sint occaecat
+                    </p>
+                    <button class="read-more">Read More</button>
+                </div>
+                <div class="blog">
+                    <span class="circle">Front-End</span>
+                    <img src="imgs/front-end.png" alt="" />
+                    <h3>Web Development</h3>
+                    <span class="date"> February 25, 2019 </span>
+                    <p>
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                        officia deserunt mollit anim.Excepteur sint occaecat
+                    </p>
+                    <button class="read-more">Read More</button>
+                </div>
+                <div class="blog">
+                    <span class="circle">Front-End</span>
+                    <img src="imgs/front-end.png" alt="" />
+                    <h3>Web Development</h3>
+                    <span class="date"> February 25, 2019 </span>
+                    <p>
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                        officia deserunt mollit anim.Excepteur sint occaecat
+                    </p>
+                    <button class="read-more">Read More</button>
+                </div>
+            </section>
+        </section>
+        <section class="indicators-blog">
+            <button class="indicator-blog active"></button>
+            <button class="indicator-blog"></button>
+            <button class="indicator-blog"></button>
+        </section>
+    </section>
+</body>
+</html>

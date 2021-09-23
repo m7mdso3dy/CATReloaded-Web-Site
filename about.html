@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="styles/aboutStyle.css" />
+    <link rel="icon" type="image/png" sizes="16x16" href="imgs/layer1.svg" />
+    <title>About CAT</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <img src="imgs/logo-nav.svg" alt="" />
+        </div>
+        <button class="menu-button">Menu
+          <span class="arrow-down"></span>
+        </button>
+        <div class="nav-bar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="activee"><a href="about.html">About</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="https://blog.catreloaded.org/">CATazine</a></li>
+            <li><a href="committees.html">Committees</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <button class="btn-newsletter">Newsletter</button>
+          </ul>
+        </div>
+    
+        <div class="btns">
+          <div class="news-letter">
+            <!--<button class="btn-newsletter">Newsletter</button>-->
+            <div class="lay1">
+              <button class="exit"><img src="imgs/exit.svg" alt="" /></button>
+              <div class="lay2">
+                <div class="NL-img">
+                  <img src="imgs/newletter.svg" alt="" />
+                </div>
+                <div class="NL-sub">
+                  <h4>Subscribe to our Newsletter!</h4>
+                  <p>We'll informed you with our new blogs and the latest updates!</p>
+                  <form>
+                    <input type="text" placeholder="Name" />
+                    <input type="email" placeholder="Email" />
+                    <input type="submit" value="Subscribe" />
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- registration btn -- to hide it just comment this div -->
+          <div class="register">
+            <button class="btn-register">Register</button>
+            <div class="bg-modal">
+              <div class="modal 1">
+                <img src="./imgs/logo header.svg" />
+                <div class="text">
+                  <h2>Recruitment 20<span>/</span>21</h2>
+                  <p>
+                    - This application is for those who are interested in
+                    computer science and want to take the chance to join CAT
+                    community and be part of our family.
+                  </p>
+                  <p>
+                    - Please take your time and fill this application carefully.
+                  </p>
+                  <p>
+                    - You can use any language you prefer(Arabic is allowed).
+                  </p>
+                  <p>
+                    - Note that the opening period of the form is 3 days, from
+                    19/12/2021 to 21/12/2021.
+                  </p>
+                  <p>Good Luck.</p>
+                </div>
+                <form class="register-form">
+                  <input type="text" placeholder="Full Name (In English)*" />
+                  <input type="email" placeholder="Email*" />
+                  <input type="text" placeholder="Phone Number*" />
+                  <input type="text" placeholder="Facebook Link*" />
+                  <input type="text" placeholder="LinkedIn Link*" />
+                  <select>
+                    <option selected disabled>Faculty</option>
+                    <option>Engineering</option>
+                    <option>Computer Science</option>
+                    <option>Other</option>
+                  </select>
+                  <select>
+                    <option selected disabled>University</option>
+                    <option>Mansoura</option>
+                    <option>Other</option>
+                  </select>
+                  <select>
+                    <option selected disabled>Academic Year</option>
+                    <option>Prepatory</option>
+                    <option>First</option>
+                    <option>Second</option>
+                    <option>Third</option>
+                    <option>Fourth</option>
+                  </select>
+                  <div class="form-btn">
+                    <button class="nxt-btn">Next</button>
+                  </div>
+                </form>
+                <span class="close-btn">X</span>
+              </div>
+              <div class="modal hide 2">
+                <img src="./imgs/logo header.svg" />
+                <form class="register-form">
+                  <p>Did you join any student activity before?</p>
+                  <textarea></textarea>
+                  <select>
+                    <option disabled selected>
+                      How did you know about CAT?
+                    </option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                  <p>Why do you want to join our community?</p>
+                  <textarea></textarea>
+                  <select>
+                    <option disabled selected>Choose a technical circle</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                  <p>Why did you choose this technical circle?</p>
+                  <textarea></textarea>
+                  <p>Add your experience in the track you chose</p>
+                  <textarea></textarea>
+                  <p>What are your other technical skills?</p>
+                  <textarea></textarea>
+                  <select>
+                    <option disabled selected>
+                      Choose a non-technical circle
+                    </option>
+                    <option value="hr">HR</option>
+                    <option value="pr">PR</option>
+                    <option value="logistics">Logistics</option>
+                    <option value="media">Media</option>
+                  </select>
+                  <div class="form-btn">
+                    <button class="nxt-btn">Next</button>
+                  </div>
+                </form>
+                <span class="close-btn">X</span>
+              </div>
+              <div class="modal hide three">
+                <img src="./imgs/logo header.svg" />
+                <h2>Content Creation</h2>
+                <form class="register-form">
+                  <p>What is the content creation?</p>
+                  <textarea></textarea>
+                  <p>Why did you choose content creation?</p>
+                  <textarea></textarea>
+                  <p>
+                    CAT Reloaded has a new partnership with @Xcompany, Xcompany
+                    is a tech company that seeks to offer internships to
+                    undergraduate students in most CS fields, write a little
+                    post about it.
+                  </p>
+                  <textarea></textarea>
+                  <div class="form-btn">
+                    <button class="submit-btn">Submit</button>
+                  </div>
+                </form>
+                <span class="close-btn">X</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </nav>
+    <header>
+      <section class="aboutCat">
+        <img src="imgs/layer1.svg" alt="" />
+        <h1>About <span>CAT</span></h1>
+      </section>
+    </header>
+    <section class="our-history">
+      <div class="container">
+        <div class="history">
+          <h2>Our History</h2>
+          <p>
+            25 years... we really have come a long way since Hesham started Computer Assistance Team, or as we like to call it CAT,
+            for the simple purpose of assembling students who were interested in the field of computer science. CAT at the time was
+            a haven for members to study & explore together the uncharted waters & work on projects that help technology advance.
+            Unknowingly however, they came across an obstacle, most of the members at the time were seniors in their final years, &
+            when they graduated, there was no one to carry the team for another year. Therefore it was on hiatus. Forward into 2005,
+            where a young lad by the name Ahmed Soliman, a production engineer at facebook, London, along with a group of his
+            colleagues sought to reignite the torch that CAT once burned and recreate the CS haven under a renaming. CAT Reloaded
+            was the fruit of their dreams. Learning from their previous fall, year after year, they encourage freshmen and any other
+            students to join the team through booths & ever growing events.
+          </p>
+        </div>
+        <img src="imgs/maleCAT.svg" alt="" />
+      </div>
+    </section>
+    <section class="ourMV">
+     <div class="container">
+        <img src="imgs/femaleCAT.svg" alt="" />
+        <div class="MV">
+          <h2>Our Mission & Vision</h2>
+          <p>
+            Building a strong community of Engineers that raise the level of Computer Science and Engineering, and all related to
+            them to compete with the first world's countries, and to be superiors.
+            Helping Egypt to raise with self-efforts to be one of the manufacturers of information technology in the world.
+
+          </p>
+        </div>
+     </div>
+    </section>
+    <section class="hierarchy">
+      <div class="container">
+        <h2>Our Hierarchy</h2>
+        <section class="founders">
+          <div class="founder heshooo">
+            <div class="fig-img">
+              <img src="imgs/heshooo.jpg" alt="" />
+              <div class="abs-border"></div>
+              <div class="fig-contacts">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <h4 class="name">Eng. Hesham ElSawi</h4>
+            <p class="position">CAT Founder</p>
+          </div>
+          <!--
+          <div class="founder">
+            <div class="fig-img">
+              <img src="imgs/saafan.jpg" alt="" />
+              <div class="abs-border"></div>
+              <div class="fig-contacts">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <h4 class="name">Dr. Mahmoud Saafan</h4>
+            <p class="position">Supervisor</p>
+          </div>-->
+          <div class="founder">
+            <div class="fig-img">
+              <img src="imgs/bingo.jpg" alt="" />
+              <div class="abs-border"></div>
+              <div class="fig-contacts">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <h4 class="name">Eng. Ibrahim Abdelfatah</h4>
+            <p class="position">CATReloaded Co-Founder</p>
+          </div>
+          <div class="founder">
+            <div class="fig-img">
+              <img src="imgs/ahmed Faragal.jpg" alt="" />
+              <div class="abs-border"></div>
+              <div class="fig-contacts">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <h4 class="name">Eng. Ahmed Soliman</h4>
+            <p class="position">CATReloaded Co-Founder</p>
+          </div>
+        </section>
+      </div>
+    </section>
+    <section class="board">
+      <div class="container">
+        <h2>Team Board</h2>
+        <section class="cor-vice">
+          <div class="b-member">
+            <div class="fig-img">
+              <img src="imgs/Board 2021/Amr Mostafa.jpg" alt="" />
+              <div class="abs-border"></div>
+              <div class="fig-contacts">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <h4 class="name">Amr Mustafa</h4>
+            <p class="position">Coordinator</p>
+          </div>
+          <div class="b-member">
+            <div class="fig-img">
+              <img src="imgs/Board 2021/Habiba Shera.jpg" alt="" />
+              <div class="abs-border"></div>
+              <div class="fig-contacts">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <h4 class="name">Habiba Shera</h4>
+            <p class="position">Vice Coordinator</p>
+          </div>
+        </section>
+        <section class="leaders">
+          <div class="b-member">
+            <div class="fig-img">
+              <img src="imgs/Board 2021/Ammar Yasser.jpg" alt="" />
+              <div class="abs-border"></div>
+              <div class="fig-contacts">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <h4 class="name">Ammar Yasser</h4>
+            <p class="position">PR&FR Leader</p>
+          </div>
+          <div class="b-member">
+            <div class="fig-img">
+              <img src="imgs/Board 2021/Salma Shaba.jpg" alt="" />
+              <div class="abs-border"></div>
+              <div class="fig-contacts">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <h4 class="name">Salma Shaban</h4>
+            <p class="position">HR Leader </p>
+          </div>
+          <div class="b-member">
+            <div class="fig-img">
+              <img src="imgs/Board 2021/Rana Sheta.jpg" alt="" />
+              <div class="abs-border"></div>
+              <div class="fig-contacts">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <h4 class="name">Rana Sheta</h4>
+            <p class="position">Logistics Leader </p>
+          </div>
+          <div class="b-member">
+            <div class="fig-img">
+              <img src="imgs/Board 2021/Moaz Zahran.jpg" alt="" />
+              <div class="abs-border"></div>
+              <div class="fig-contacts">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <h4 class="name">Moaz Zahran</h4>
+            <p class="position">Media Leader</p>
+          </div>
+          <div class="b-member">
+            <div class="fig-img">
+              <img src="imgs/Board 2021/Mohamed EL-Helbawy.jpg" alt="" />
+              <div class="abs-border"></div>
+              <div class="fig-contacts">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <h4 class="name">Mohamed Khalid</h4>
+            <p class="position">Flutter Leader</p>
+          </div>
+          <div class="b-member">
+            <div class="fig-img">
+              <img src="imgs/Board 2021/Refaat Elbrawy.jpg" alt="" />
+              <div class="abs-border"></div>
+              <div class="fig-contacts">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <h4 class="name">Refaat Mohamed</h4>
+            <p class="position">Graphic & UI/UX Leader</p>
+          </div>
+          <div class="b-member">
+            <div class="fig-img">
+              <img src="imgs/Board 2021/Nada Ezzdin.jpg" alt="" />
+              <div class="abs-border"></div>
+              <div class="fig-contacts">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <h4 class="name">Nada Ezzdin</h4>
+            <p class="position">Back-End Leader</p>
+          </div>
+          <div class="b-member">
+            <div class="fig-img">
+              <img src="imgs/Board 2021/Ahmed Abdrabou.jpg" alt="" />
+              <div class="abs-border"></div>
+              <div class="fig-contacts">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <h4 class="name">Ahmed Mohamed</h4>
+            <p class="position">Front-End Leader </p>
+          </div>
+          <div class="b-member">
+            <div class="fig-img">
+              <img src="imgs/Board 2021/Ahmed Emad.jpeg" alt="" />
+              <div class="abs-border"></div>
+              <div class="fig-contacts">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <h4 class="name">Ahmed Emad</h4>
+            <p class="position">IOS Leader</p>
+          </div>
+          <div class="b-member">
+            <div class="fig-img">
+              <img src="imgs/Board 2021/Amany Ashraf.jpg" alt="" />
+              <div class="abs-border"></div>
+              <div class="fig-contacts">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <h4 class="name">Amany Ashraf</h4>
+            <p class="position">Android Leader</p>
+          </div>
+          <div class="b-member">
+            <div class="fig-img">
+              <img src="imgs/Board 2021/Yasser Ahmed.jpeg" alt="" />
+              <div class="abs-border"></div>
+              <div class="fig-contacts">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <h4 class="name">Yasser Ahmed</h4>
+            <p class="position">Data Science Leader</p>
+          </div>
+          <div class="b-member">
+            <div class="fig-img">
+              <img src="imgs/Board 2021/Khalid Emad.jpg" alt="" />
+              <div class="abs-border"></div>
+              <div class="fig-contacts">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <h4 class="name">Khalid Emad</h4>
+            <p class="position">Cyber Security Leader</p>
+          </div>
+          <div class="b-member">
+            <div class="fig-img">
+              <img src="imgs/Board 2021/Mariam talaat.jpg" alt="" />
+              <div class="abs-border"></div>
+              <div class="fig-contacts">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <h4 class="name">Mariam Tallat</h4>
+            <p class="position">Game Development Leader</p>
+          </div>
+          <div class="b-member">
+            <div class="fig-img">
+              <img src="imgs/Board 2021/Shaimaa El-Badrawy.jpg" alt="" />
+              <div class="abs-border"></div>
+              <div class="fig-contacts">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <h4 class="name">Shaimaa Elbadrawy</h4>
+            <p class="position">Computer Science Leader</p>
+          </div>
+        </section>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <section class="footer1">
+          <section class="info">
+            <img src="imgs/logo-nav.svg" alt="" />
+          </section>
+          <section class="news-letter">
+            <p class="info-location">
+              <span>
+                <img src="imgs/location-pin-red.svg" alt="" />
+              </span>
+              LOCATION
+            </p>
+            <p class="adrees">
+              Faculty of Engineering,<br />Mansoura University,<br />Dakhliya, Egypt
+            </p>
+          </section>
+          <section class="annual-partner">
+            <p>ANNUAL PARTENER</p>
+            <div class="partner">
+              <img src="imgs/triago.png" alt="" width="50px" height="50px" />
+              <img src="imgs/triago.png" alt="" width="50px" height="50px" />
+            </div>
+          </section>
+          <section class="blog-tags">
+            <p>FOLLOW US</p>
+            <div class="contact-us">
+              <a href="https://web.facebook.com/CATReloaded">
+                <img src="imgs/facebook-f-brands.svg" alt="" />
+              </a>
+              <a href="https://twitter.com/CATReloaded">
+                <img src="imgs/twitter-brands.svg" alt="" />
+              </a>
+              <a href="https://www.youtube.com/user/C4TReloaded">
+                <img src="imgs/youtube-brands.svg" alt="" />
+              </a>
+              <a href="https://github.com/CATReloaded">
+                <img src="imgs/github-brands.svg" alt="" />
+              </a>
+              <a href="https://www.linkedin.com/company/cat-reloaded/">
+                <img src="imgs/linkedin-in-brands.svg" alt="" />
+              </a>
+            </div>
+          </section>
+        </section>
+      </div>
+      <section class="footer2">
+        <p>CopyRights&copy; 2021 All Right Reserved by CATReloaded Technical</p>
+      </section>
+    </footer>
+    <script src="jsCode/about.js"></script>
+  </body>
+</html>

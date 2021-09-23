@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="16x16" href="imgs/layer1.svg" />
+    <title>CAT Events</title>
+    <link rel="stylesheet" href="./styles/events.css" />
+    <script src="./jsCode/events.js" defer></script>
+  </head>
+  <body>
+    <!-- start header -->
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <img src="imgs/logo-nav.svg" alt="" />
+        </div>
+        <button class="menu-button">Menu
+          <span class="arrow-down"></span>
+        </button>
+        <div class="nav-bar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="activee"><a href="events.html">Events</a></li>
+            <li><a href="https://blog.catreloaded.org/">CATazine</a></li>
+            <li><a href="committees.html">Committees</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <button class="btn-newsletter">Newsletter</button>
+          </ul>
+        </div>
+    
+        <div class="btns">
+          <div class="news-letter">
+            <!--<button class="btn-newsletter">Newsletter</button>-->
+            <div class="lay1">
+              <button class="exit"><img src="imgs/exit.svg" alt="" /></button>
+              <div class="lay2">
+                <div class="NL-img">
+                  <img src="imgs/newletter.svg" alt="" />
+                </div>
+                <div class="NL-sub">
+                  <h4>Subscribe to our Newsletter!</h4>
+                  <p>We'll informed you with our new blogs and the latest updates!</p>
+                  <form>
+                    <input type="text" placeholder="Name" />
+                    <input type="email" placeholder="Email" />
+                    <input type="submit" value="Subscribe" />
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- registration btn -- to hide it just comment this div -->
+          <div class="register">
+            <button class="btn-register">Register</button>
+            <div class="bg-modal">
+              <div class="modal 1">
+                <img src="./imgs/logo header.svg" />
+                <div class="text">
+                  <h2>Recruitment 20<span>/</span>21</h2>
+                  <p>
+                    - This application is for those who are interested in
+                    computer science and want to take the chance to join CAT
+                    community and be part of our family.
+                  </p>
+                  <p>
+                    - Please take your time and fill this application carefully.
+                  </p>
+                  <p>
+                    - You can use any language you prefer(Arabic is allowed).
+                  </p>
+                  <p>
+                    - Note that the opening period of the form is 3 days, from
+                    19/12/2021 to 21/12/2021.
+                  </p>
+                  <p>Good Luck.</p>
+                </div>
+                <form class="register-form">
+                  <input type="text" placeholder="Full Name (In English)*" />
+                  <input type="email" placeholder="Email*" />
+                  <input type="text" placeholder="Phone Number*" />
+                  <input type="text" placeholder="Facebook Link*" />
+                  <input type="text" placeholder="LinkedIn Link*" />
+                  <select>
+                    <option selected disabled>Faculty</option>
+                    <option>Engineering</option>
+                    <option>Computer Science</option>
+                    <option>Other</option>
+                  </select>
+                  <select>
+                    <option selected disabled>University</option>
+                    <option>Mansoura</option>
+                    <option>Other</option>
+                  </select>
+                  <select>
+                    <option selected disabled>Academic Year</option>
+                    <option>Prepatory</option>
+                    <option>First</option>
+                    <option>Second</option>
+                    <option>Third</option>
+                    <option>Fourth</option>
+                  </select>
+                  <div class="form-btn">
+                    <button class="nxt-btn">Next</button>
+                  </div>
+                </form>
+                <span class="close-btn">X</span>
+              </div>
+              <div class="modal hide 2">
+                <img src="./imgs/logo header.svg" />
+                <form class="register-form">
+                  <p>Did you join any student activity before?</p>
+                  <textarea></textarea>
+                  <select>
+                    <option disabled selected>
+                      How did you know about CAT?
+                    </option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                  <p>Why do you want to join our community?</p>
+                  <textarea></textarea>
+                  <select>
+                    <option disabled selected>Choose a technical circle</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                  <p>Why did you choose this technical circle?</p>
+                  <textarea></textarea>
+                  <p>Add your experience in the track you chose</p>
+                  <textarea></textarea>
+                  <p>What are your other technical skills?</p>
+                  <textarea></textarea>
+                  <select>
+                    <option disabled selected>
+                      Choose a non-technical circle
+                    </option>
+                    <option value="hr">HR</option>
+                    <option value="pr">PR</option>
+                    <option value="logistics">Logistics</option>
+                    <option value="media">Media</option>
+                  </select>
+                  <div class="form-btn">
+                    <button class="nxt-btn">Next</button>
+                  </div>
+                </form>
+                <span class="close-btn">X</span>
+              </div>
+              <div class="modal hide three">
+                <img src="./imgs/logo header.svg" />
+                <h2>Content Creation</h2>
+                <form class="register-form">
+                  <p>What is the content creation?</p>
+                  <textarea></textarea>
+                  <p>Why did you choose content creation?</p>
+                  <textarea></textarea>
+                  <p>
+                    CAT Reloaded has a new partnership with @Xcompany, Xcompany
+                    is a tech company that seeks to offer internships to
+                    undergraduate students in most CS fields, write a little
+                    post about it.
+                  </p>
+                  <textarea></textarea>
+                  <div class="form-btn">
+                    <button class="submit-btn">Submit</button>
+                  </div>
+                </form>
+                <span class="close-btn">X</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </nav>
+    <header>
+      
+      <section class="aboutCat">
+        <img src="imgs/layer1.svg" alt="" />
+        <h1><span>CAT</span>Events</h1>
+      </section>
+    </header>
+    <!-- end header -->
+    <!-- start events -->
+    <section class="container">
+      <div class="slider-container">
+        <section class="events">
+          <section class="event">
+            <div class="event-img">
+              <img src="imgs/event1.jpg" alt="Scope 21" />
+            </div>
+            <div class="event-description">
+              <h3>CAT Quarter Century</h3>
+              <p class="add-data">25 Years CAT</p>
+              <p class="event-date">
+                <img src="imgs/calendar-alt-regular.svg" alt="" />
+                <span>2 - 9 SEP</span>
+              </p>
+              <p class="event-location">
+                <img src="imgs/location-pin.svg" alt="" />
+                <span>Our Facebook Page</span>
+              </p>
+              <p class="description">
+                Forgetting is no longer possible; the memories have become so plentiful and are about to explode with all the good
+                and
+                the great that we have been through, so are you ready?!…
+          
+              </p>
+              <a href="https://fb.me/e/2tZA028Om"><button class="read-more">Read More...</button></a>
+            </div>
+          </section>
+          <section class="event">
+            <div class="event-img">
+              <img src="imgs/Up Event cover.png" alt="Scope 21" />
+            </div>
+            <div class="event-description">
+              <h3>Scope 21</h3>
+              <p class="add-data">Bootcamp & Mini-Hackathon</p>
+              <p class="event-date">
+                <img src="imgs/calendar-alt-regular.svg" alt="" />
+                <span>21 - 28 April</span>
+              </p>
+              <p class="event-location">
+                <img src="imgs/location-pin.svg" alt="" />
+                <span>ITI - Mansoura University</span>
+              </p>
+              <p class="description">
+                Do you have a passion for learning about the world's trending technologies? Well.., CAT Scope 21 is your place to
+                start
+                your dream.
+              </p>
+              <a href="https://fb.me/e/5WzQiC83k"><button class="read-more">Read More...</button></a>
+            </div>
+          </section>
+          <section class="event">
+            <div class="event-img">
+              <img src="imgs/event3.jpg" alt="Scope 21" />
+            </div>
+            <div class="event-description">
+              <h3>Tech Tips</h3>
+              <p class="add-data"></p>
+              <p class="event-date">
+                <img src="imgs/calendar-alt-regular.svg" alt="" />
+                <span>18 DEC 2020</span>
+              </p>
+              <p class="event-location">
+                <img src="imgs/location-pin.svg" alt="" />
+                <span>ITI - Mansoura Bransh Facebook Page</span>
+              </p>
+              <p class="description">
+                The truly benefit comes from knowing who offers it in the first place.
+                So really, who are we? And what are we offering?
+                From here we decided to organise this Event to clear the whole photo.
+                Starting with introducing ourselves passing through what we are offering.
+              </p>
+              <button class="read-more"><a href="https://fb.me/e/1PN1tiOIl">Read More...</a></button>
+            </div>
+          </section>
+          <section class="event">
+            <div class="event-img">
+              <img src="imgs/helloworld.jpg" alt="Hello World 5.00" />
+            </div>
+            <div class="event-description">
+              <h3>Hello, world! 5.0</h3>
+              <p class="add-data"></p>
+              <p class="event-date">
+                <img src="imgs/calendar-alt-regular.svg" alt="" />
+                <span>23 - 24 Nov 2020</span>
+              </p>
+              <p class="event-location">
+                <img src="imgs/location-pin.svg" alt="" />
+                <span>ITI - Mansoura University</span>
+              </p>
+              <p class="description">
+                Once upon time in some place at some point in history.
+                The classic beginning of all great stories, Fancy, fate, good, evil and even love, they all have that classic beginning.
+                But here and now another great story is about to begin.
+                Once upon time is ..NOW.
+              </p>
+              <button class="read-more"><a href="https://fb.me/e/1Lgw9i11r">Read More...</a></button>
+            </div>
+          </section>
+          <section class="event">
+            <div class="event-img">
+              <img src="imgs/CATVid.jpg" alt="Scope 21" />
+            </div>
+            <div class="event-description">
+              <h3>CATvid-19</h3>
+              <p class="add-data"></p>
+              <p class="event-date">
+                <img src="imgs/calendar-alt-regular.svg" alt="" />
+                <span>25 Mar - 15 Apr  2020</span>
+              </p>
+              <p class="event-location">
+                <img src="imgs/location-pin.svg" alt="" />
+                <span>CAT Reloaded YouTube Channel</span>
+              </p>
+              <p class="description">
+                Wanna attend our event? But You can't?
+                ‎‏Don't worry! Cause it’s anti-virus✅
+                ‎‏The event will be held online on our platforms so you are able to interact directly with our speakers on live
+                streaming👌🏼
+              </p>
+              <button class="read-more"><a href="https://fb.me/e/5GVCzKy5S">Read More...</a></button>
+            </div>
+          </section>
+        </section>
+        <section class="events">
+          <section class="event">
+            <div class="event-img">
+              <img src="imgs/Up Event cover.png" alt="Scope 21" />
+            </div>
+            <div class="event-description">
+              <h3>Scope 21</h3>
+              <p class="add-data">Bootcamp & Mini-Hackathon</p>
+              <p class="event-date">
+                <img src="imgs/calendar-alt-regular.svg" alt="" />
+                <span>21 - 28 April</span>
+              </p>
+              <p class="event-location">
+                <img src="imgs/location-pin.svg" alt="" />
+                <span>ITI - Mansoura University</span>
+              </p>
+              <p class="description">
+                Lorem Ipsum is simply dummy dolor unknown printer text of the
+                printing and typesetting dolor industry. Lorem Ipsum has been the
+                industry's standard dummy when an unknown printer. dolo Contrary
+                to popular belief, Lorem
+              </p>
+              <button class="read-more">Read More...</button>
+            </div>
+          </section>
+          <section class="event">
+            <div class="event-img">
+              <img src="imgs/Up Event cover.png" alt="Scope 21" />
+            </div>
+            <div class="event-description">
+              <h3>Scope 21</h3>
+              <p class="add-data">Bootcamp & Mini-Hackathon</p>
+              <p class="event-date">
+                <img src="imgs/calendar-alt-regular.svg" alt="" />
+                <span>21 - 28 April</span>
+              </p>
+              <p class="event-location">
+                <img src="imgs/location-pin.svg" alt="" />
+                <span>ITI - Mansoura University</span>
+              </p>
+              <p class="description">
+                Lorem Ipsum is simply dummy dolor unknown printer text of the
+                printing and typesetting dolor industry. Lorem Ipsum has been the
+                industry's standard dummy when an unknown printer. dolo Contrary
+                to popular belief, Lorem
+              </p>
+              <button class="read-more">Read More...</button>
+            </div>
+          </section>
+          <section class="event">
+            <div class="event-img">
+              <img src="imgs/Up Event cover.png" alt="Scope 21" />
+            </div>
+            <div class="event-description">
+              <h3>Scope 21</h3>
+              <p class="add-data">Bootcamp & Mini-Hackathon</p>
+              <p class="event-date">
+                <img src="imgs/calendar-alt-regular.svg" alt="" />
+                <span>21 - 28 April</span>
+              </p>
+              <p class="event-location">
+                <img src="imgs/location-pin.svg" alt="" />
+                <span>ITI - Mansoura University</span>
+              </p>
+              <p class="description">
+                Lorem Ipsum is simply dummy dolor unknown printer text of the
+                printing and typesetting dolor industry. Lorem Ipsum has been the
+                industry's standard dummy when an unknown printer. dolo Contrary
+                to popular belief, Lorem
+              </p>
+              <button class="read-more">Read More...</button>
+            </div>
+          </section>
+          <section class="event">
+            <div class="event-img">
+              <img src="imgs/Up Event cover.png" alt="Scope 21" />
+            </div>
+            <div class="event-description">
+              <h3>Scope 21</h3>
+              <p class="add-data">Bootcamp & Mini-Hackathon</p>
+              <p class="event-date">
+                <img src="imgs/calendar-alt-regular.svg" alt="" />
+                <span>21 - 28 April</span>
+              </p>
+              <p class="event-location">
+                <img src="imgs/location-pin.svg" alt="" />
+                <span>ITI - Mansoura University</span>
+              </p>
+              <p class="description">
+                Lorem Ipsum is simply dummy dolor unknown printer text of the
+                printing and typesetting dolor industry. Lorem Ipsum has been the
+                industry's standard dummy when an unknown printer. dolo Contrary
+                to popular belief, Lorem
+              </p>
+              <button class="read-more">Read More...</button>
+            </div>
+          </section>
+          <section class="event">
+            <div class="event-img">
+              <img src="imgs/Up Event cover.png" alt="Scope 21" />
+            </div>
+            <div class="event-description">
+              <h3>Scope 21</h3>
+              <p class="add-data">Bootcamp & Mini-Hackathon</p>
+              <p class="event-date">
+                <img src="imgs/calendar-alt-regular.svg" alt="" />
+                <span>21 - 28 April</span>
+              </p>
+              <p class="event-location">
+                <img src="imgs/location-pin.svg" alt="" />
+                <span>ITI - Mansoura University</span>
+              </p>
+              <p class="description">
+                Lorem Ipsum is simply dummy dolor unknown printer text of the
+                printing and typesetting dolor industry. Lorem Ipsum has been the
+                industry's standard dummy when an unknown printer. dolo Contrary
+                to popular belief, Lorem
+              </p>
+              <button class="read-more">Read More...</button>
+            </div>
+          </section>
+        </section>
+        <section class="events">
+          <section class="event">
+            <div class="event-img">
+              <img src="imgs/Up Event cover.png" alt="Scope 21" />
+            </div>
+            <div class="event-description">
+              <h3>Scope 21</h3>
+              <p class="add-data">Bootcamp & Mini-Hackathon</p>
+              <p class="event-date">
+                <img src="imgs/calendar-alt-regular.svg" alt="" />
+                <span>21 - 28 April</span>
+              </p>
+              <p class="event-location">
+                <img src="imgs/location-pin.svg" alt="" />
+                <span>ITI - Mansoura University</span>
+              </p>
+              <p class="description">
+                Lorem Ipsum is simply dummy dolor unknown printer text of the
+                printing and typesetting dolor industry. Lorem Ipsum has been the
+                industry's standard dummy when an unknown printer. dolo Contrary
+                to popular belief, Lorem
+              </p>
+              <button class="read-more">Read More...</button>
+            </div>
+          </section>
+          <section class="event">
+            <div class="event-img">
+              <img src="imgs/Up Event cover.png" alt="Scope 21" />
+            </div>
+            <div class="event-description">
+              <h3>Scope 21</h3>
+              <p class="add-data">Bootcamp & Mini-Hackathon</p>
+              <p class="event-date">
+                <img src="imgs/calendar-alt-regular.svg" alt="" />
+                <span>21 - 28 April</span>
+              </p>
+              <p class="event-location">
+                <img src="imgs/location-pin.svg" alt="" />
+                <span>ITI - Mansoura University</span>
+              </p>
+              <p class="description">
+                Lorem Ipsum is simply dummy dolor unknown printer text of the
+                printing and typesetting dolor industry. Lorem Ipsum has been the
+                industry's standard dummy when an unknown printer. dolo Contrary
+                to popular belief, Lorem
+              </p>
+              <button class="read-more">Read More...</button>
+            </div>
+          </section>
+          <section class="event">
+            <div class="event-img">
+              <img src="imgs/Up Event cover.png" alt="Scope 21" />
+            </div>
+            <div class="event-description">
+              <h3>Scope 21</h3>
+              <p class="add-data">Bootcamp & Mini-Hackathon</p>
+              <p class="event-date">
+                <img src="imgs/calendar-alt-regular.svg" alt="" />
+                <span>21 - 28 April</span>
+              </p>
+              <p class="event-location">
+                <img src="imgs/location-pin.svg" alt="" />
+                <span>ITI - Mansoura University</span>
+              </p>
+              <p class="description">
+                Lorem Ipsum is simply dummy dolor unknown printer text of the
+                printing and typesetting dolor industry. Lorem Ipsum has been the
+                industry's standard dummy when an unknown printer. dolo Contrary
+                to popular belief, Lorem
+              </p>
+              <button class="read-more">Read More...</button>
+            </div>
+          </section>
+          <section class="event">
+            <div class="event-img">
+              <img src="imgs/Up Event cover.png" alt="Scope 21" />
+            </div>
+            <div class="event-description">
+              <h3>Scope 21</h3>
+              <p class="add-data">Bootcamp & Mini-Hackathon</p>
+              <p class="event-date">
+                <img src="imgs/calendar-alt-regular.svg" alt="" />
+                <span>21 - 28 April</span>
+              </p>
+              <p class="event-location">
+                <img src="imgs/location-pin.svg" alt="" />
+                <span>ITI - Mansoura University</span>
+              </p>
+              <p class="description">
+                Lorem Ipsum is simply dummy dolor unknown printer text of the
+                printing and typesetting dolor industry. Lorem Ipsum has been the
+                industry's standard dummy when an unknown printer. dolo Contrary
+                to popular belief, Lorem
+              </p>
+              <button class="read-more">Read More...</button>
+            </div>
+          </section>
+          <section class="event">
+            <div class="event-img">
+              <img src="imgs/Up Event cover.png" alt="Scope 21" />
+            </div>
+            <div class="event-description">
+              <h3>Scope 21</h3>
+              <p class="add-data">Bootcamp & Mini-Hackathon</p>
+              <p class="event-date">
+                <img src="imgs/calendar-alt-regular.svg" alt="" />
+                <span>21 - 28 April</span>
+              </p>
+              <p class="event-location">
+                <img src="imgs/location-pin.svg" alt="" />
+                <span>ITI - Mansoura University</span>
+              </p>
+              <p class="description">
+                Lorem Ipsum is simply dummy dolor unknown printer text of the
+                printing and typesetting dolor industry. Lorem Ipsum has been the
+                industry's standard dummy when an unknown printer. dolo Contrary
+                to popular belief, Lorem
+              </p>
+              <button class="read-more">Read More...</button>
+            </div>
+          </section>
+        </section>
+        <section class="events">
+          <section class="event">
+            <div class="event-img">
+              <img src="imgs/Up Event cover.png" alt="Scope 21" />
+            </div>
+            <div class="event-description">
+              <h3>Scope 25</h3>
+              <p class="add-data">Bootcamp & Mini-Hackathon</p>
+              <p class="event-date">
+                <img src="imgs/calendar-alt-regular.svg" alt="" />
+                <span>21 - 28 April</span>
+              </p>
+              <p class="event-location">
+                <img src="imgs/location-pin.svg" alt="" />
+                <span>ITI - Mansoura University</span>
+              </p>
+              <p class="description">
+                Lorem Ipsum is simply dummy dolor unknown printer text of the
+                printing and typesetting dolor industry. Lorem Ipsum has been the
+                industry's standard dummy when an unknown printer. dolo Contrary
+                to popular belief, Lorem
+              </p>
+              <button class="read-more">Read More...</button>
+            </div>
+          </section>
+          <section class="event">
+            <div class="event-img">
+              <img src="imgs/Up Event cover.png" alt="Scope 21" />
+            </div>
+            <div class="event-description">
+              <h3>Scope 25</h3>
+              <p class="add-data">Bootcamp & Mini-Hackathon</p>
+              <p class="event-date">
+                <img src="imgs/calendar-alt-regular.svg" alt="" />
+                <span>21 - 28 April</span>
+              </p>
+              <p class="event-location">
+                <img src="imgs/location-pin.svg" alt="" />
+                <span>ITI - Mansoura University</span>
+              </p>
+              <p class="description">
+                Lorem Ipsum is simply dummy dolor unknown printer text of the
+                printing and typesetting dolor industry. Lorem Ipsum has been the
+                industry's standard dummy when an unknown printer. dolo Contrary
+                to popular belief, Lorem
+              </p>
+              <button class="read-more">Read More...</button>
+            </div>
+          </section>
+          <section class="event">
+            <div class="event-img">
+              <img src="imgs/Up Event cover.png" alt="Scope 21" />
+            </div>
+            <div class="event-description">
+              <h3>Scope 21</h3>
+              <p class="add-data">Bootcamp & Mini-Hackathon</p>
+              <p class="event-date">
+                <img src="imgs/calendar-alt-regular.svg" alt="" />
+                <span>21 - 28 April</span>
+              </p>
+              <p class="event-location">
+                <img src="imgs/location-pin.svg" alt="" />
+                <span>ITI - Mansoura University</span>
+              </p>
+              <p class="description">
+                Lorem Ipsum is simply dummy dolor unknown printer text of the
+                printing and typesetting dolor industry. Lorem Ipsum has been the
+                industry's standard dummy when an unknown printer. dolo Contrary
+                to popular belief, Lorem
+              </p>
+              <button class="read-more">Read More...</button>
+            </div>
+          </section>
+          <section class="event">
+            <div class="event-img">
+              <img src="imgs/Up Event cover.png" alt="Scope 21" />
+            </div>
+            <div class="event-description">
+              <h3>Scope 25</h3>
+              <p class="add-data">Bootcamp & Mini-Hackathon</p>
+              <p class="event-date">
+                <img src="imgs/calendar-alt-regular.svg" alt="" />
+                <span>21 - 28 April</span>
+              </p>
+              <p class="event-location">
+                <img src="imgs/location-pin.svg" alt="" />
+                <span>ITI - Mansoura University</span>
+              </p>
+              <p class="description">
+                Lorem Ipsum is simply dummy dolor unknown printer text of the
+                printing and typesetting dolor industry. Lorem Ipsum has been the
+                industry's standard dummy when an unknown printer. dolo Contrary
+                to popular belief, Lorem
+              </p>
+              <button class="read-more">Read More...</button>
+            </div>
+          </section>
+          <section class="event">
+            <div class="event-img">
+              <img src="imgs/Up Event cover.png" alt="Scope 21" />
+            </div>
+            <div class="event-description">
+              <h3>Scope 25</h3>
+              <p class="add-data">Bootcamp & Mini-Hackathon</p>
+              <p class="event-date">
+                <img src="imgs/calendar-alt-regular.svg" alt="" />
+                <span>21 - 28 April</span>
+              </p>
+              <p class="event-location">
+                <img src="imgs/location-pin.svg" alt="" />
+                <span>ITI - Mansoura University</span>
+              </p>
+              <p class="description">
+                Lorem Ipsum is simply dummy dolor unknown printer text of the
+                printing and typesetting dolor industry. Lorem Ipsum has been the
+                industry's standard dummy when an unknown printer. dolo Contrary
+                to popular belief, Lorem
+              </p>
+              <button class="read-more">Read More...</button>
+            </div>
+          </section>
+        </section>
+      </div>
+      <div class="slider-controls">
+        <span id="prev" class="prev">&#60;</span>
+        <span id="indicators" class="indicators"></span>
+        <span id="next" class="next">&#62;</span>
+      </div>
+    </section>
+    <!-- end events -->
+    <footer>
+      <div class="container">
+        <section class="footer1">
+          <section class="info">
+            <img src="imgs/logo-nav.svg" alt="" />
+          </section>
+          <section class="news-letter">
+            <p class="info-location">
+              <span>
+                <img src="imgs/location-pin-red.svg" alt="" />
+              </span>
+              LOCATION
+            </p>
+            <p class="adrees">
+              Faculty of Engineering,<br />Mansoura University,<br />Dakhliya, Egypt
+            </p>
+          </section>
+          <section class="annual-partner">
+            <p>ANNUAL PARTENER</p>
+            <div class="partner">
+              <img src="imgs/triago.png" alt="" width="50px" height="50px" />
+              <img src="imgs/triago.png" alt="" width="50px" height="50px" />
+            </div>
+          </section>
+          <section class="blog-tags">
+            <p>FOLLOW US</p>
+            <div class="contact-us">
+              <a href="https://web.facebook.com/CATReloaded">
+                <img src="imgs/facebook-f-brands.svg" alt="" />
+              </a>
+              <a href="https://twitter.com/CATReloaded">
+                <img src="imgs/twitter-brands.svg" alt="" />
+              </a>
+              <a href="https://www.youtube.com/user/C4TReloaded">
+                <img src="imgs/youtube-brands.svg" alt="" />
+              </a>
+              <a href="https://github.com/CATReloaded">
+                <img src="imgs/github-brands.svg" alt="" />
+              </a>
+              <a href="https://www.linkedin.com/company/cat-reloaded/">
+                <img src="imgs/linkedin-in-brands.svg" alt="" />
+              </a>
+            </div>
+          </section>
+        </section>
+      </div>
+      <section class="footer2">
+        <p>Copywrite&copy; 2021 All Right Reserved by CATReloaded Technical</p>
+      </section>
+    </footer>
+  </body>
+</html>
